@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Игра в числа</title>
+    
+</head>
+
+<body>
+
+
+    <div class="countainer">
+       <div class="canvas">
+           <div class="desc">
+               <h1 class="desc__tittle">Игра угадай число</h1>
+               <p class="desc__subtittle">Число загадано уже, от 1 до 100
+
+               </p>
+           </div>
+           <div class="field">
+               <label for="field__input" class="field__label">
+                   Ваше число:
+               </label>
+               <input type="text" class="field__input">
+               <button class="field__btn">Проверить</button>
+           </div>
+           <div class="result">
+               <div class="result__check">
+                   <span class="result__check__label">Результат</span>
+                   <span class="result__check__out"></span>
+               </div>
+               <div class="result__help">
+                <span class="result__help__label">Подсказка:</span>
+                <span class="result__help__out"></span>
+            </div>
+            <div class="result__count">
+                <span class="result__count__label">Число попыток:</span>
+                <span class="result__count__out"></span>
+                
+            </div>
+            <div class="result__game">
+                <span class="game__over">Ну что...</span>
+                <span class="game__over__out"></span>
+</div>
+           </div>
+       </div>
+    </div>
+    
+    <script src="./assets/js/app.js"></script>
+
+</body>
+</html>
