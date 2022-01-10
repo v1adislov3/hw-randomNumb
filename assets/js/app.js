@@ -40,7 +40,8 @@ btn.onclick = function (evt) {
         count.innerHTML = item;
         
     } else if (item == 10){
-        game.innerHTML = "в следующий раз повезёт."
+        game.innerHTML = `в следующий раз повезёт. Загаданное число: ${randNum}`;
+        
         
     }
         
